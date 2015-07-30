@@ -8,7 +8,8 @@ public class Dokument {
 
 	private String Nr;
 	protected static Date data = new Date();
-	protected static DateFormat dateFormat = new SimpleDateFormat("yyyy");
+	protected static DateFormat dateFormatRok = new SimpleDateFormat("yyyy");
+	protected static DateFormat dateFormatRokMiesiac = new SimpleDateFormat("MM/yyyy");
 
 	public Dokument(String nr) {
 		Nr = nr;

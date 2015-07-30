@@ -29,4 +29,5 @@ class B extends A {
 	public void methodOne() {
 		System.out.print("2");
 	}
+
 }
