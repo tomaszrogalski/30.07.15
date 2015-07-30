@@ -14,10 +14,6 @@ public class Dokument {
 		Nr = nr;
 	}
 
-	public Dokument() {
-
-	}
-
 	public String getNr() {
 		return Nr;
 	}

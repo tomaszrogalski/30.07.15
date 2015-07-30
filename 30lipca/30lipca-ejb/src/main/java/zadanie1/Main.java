@@ -6,6 +6,7 @@ import java.util.List;
 public class Main {
 
 	public static void main(String[] args) {
+
 		List<Dokument> listaDokumentow = new ArrayList<>();
 
 		for (int i = 1; i < 6; i++) {
@@ -18,11 +19,12 @@ public class Main {
 		for (Dokument dokument : listaDokumentow) {
 
 			if (i++ % 4 == 0) {
-				System.out.println();
+				System.out.println("-----------------------");
 			}
 			System.out.println(dokument.getNr());
 
 		}
+
 	}
 
 }
